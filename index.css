@@ -1,0 +1,218 @@
+/* ------------- Formatações gerais ------------- */
+
+@font-face {
+    font-family: 'fonte nova';
+    src: url(idroid.otf) format('opentype');
+}
+ 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+*{
+    margin: auto;
+    font-family: "Bebas Neue", serif;    
+    min-width: 350px;
+}
+
+body{
+    background-color: #E8E7C2; 
+}
+
+/* ---------------------------------------------------- */
+
+/* ------------- cabecalho ------------- */
+
+#cabecalho{
+    background-image: linear-gradient(#3AD07E, #2b995b, #1c5f3a, #14472b);
+    height: 250px;
+    box-shadow: 5px 8px 10px #4a4b4b70;
+}
+
+
+#cabecalho>h1{
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+    font-size: 28px;
+}
+
+#cabecalho>h5{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 20px;
+    width: 450px;
+    color: #d2e9dc;
+}
+
+#cabecalho>nav{
+    text-align: left;
+    margin: 10px;
+    padding-top: 52px;
+
+}
+
+#cabecalho>nav>a{
+    padding: 10px;
+    text-decoration: none;
+    color: #3AD07E;
+    
+}
+
+#cabecalho>nav>a:hover{
+    background-color: #3AD07E;
+    color: #0c2b1a;
+    border-radius: 10%;
+}
+
+/* ---------------------------------------*/
+
+/* ------------- Conteudo Principal -------------*/
+
+#principal{
+    width: 1000px;
+    background-color: white;
+    width: auto;
+    min-width: 350px;
+    max-width: 1050px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 10px 15px #4a4b4b70;
+    
+}
+
+#principal>h1,h2{
+    font-family: 'fonte nova';
+    color:#143A26 ;
+}
+
+#principal>h2{
+    background-image: linear-gradient(to right, #87DFAF, #87dfaf7e, #87dfaf38, #87dfaf05);
+    padding-left: 15px;
+    
+}
+
+#principal>p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-indent: 20px;
+    line-height: 30px; /* aumenta a altura da linha */
+    
+}
+
+.imagens{
+    display: block;
+    text-align: center;
+
+}
+
+#bugdroid{
+    display: block;
+    width: 350px;
+}
+
+#fundo-video{
+    background-color: #032B15;
+    position: relative;
+    padding-bottom: 60%;
+    padding: 20px;
+    margin: 0px -20px 30px -25px;
+    width: 99.5%;
+    height: 420px;
+    
+}
+
+#fundo-video > iframe{
+    width: 60%;
+    height: 380px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.link{
+    color: #0c2b1a;
+    font-weight: bolder;
+}
+
+.link>a{
+    color: #143A26;
+    background-color: #83E1AC;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+#note{
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #7FE1A9;
+    box-shadow: 15px 10px 10px rgba(128, 128, 128, 0.356);
+    min-width: 350px;
+    width: 920px;
+    max-width: 920px;
+    width: auto;
+    height: auto;
+    min-height: 480px;
+}
+
+#note>h3{
+    border-radius: 10px 10px 0px 0px ;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+    color: white;
+    background-color: #165C33;
+    
+}
+
+#note>p{
+    line-height: 35px;
+    text-indent: 35px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+#lista{
+    list-style-position: inside;
+    list-style: none;
+    columns: 2;
+
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+/* --------------------------------------- */
+
+/*------------------ Rodape ---------------------*/
+
+#rodape{
+    width: 100%;
+    height: 35px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #032B15;
+    min-width: 350px;
+    
+}
+
+#rodape>p{
+    color: white;
+}
+
+.mencao{
+    color: #9bccb1;
+}
+
+/*---------------------------------------*/
