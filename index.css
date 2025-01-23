@@ -27,7 +27,7 @@ body{
 
 #cabecalho{
     background-image: linear-gradient(#3AD07E, #2b995b, #1c5f3a, #14472b);
-    height: 250px;
+    height: 220px;
     box-shadow: 5px 8px 10px #4a4b4b70;
 }
 
@@ -48,8 +48,9 @@ body{
 
 #cabecalho>nav{
     text-align: left;
-    margin: 10px;
-    padding-top: 52px;
+    margin: 5px;
+    padding-top: 42px;
+    background-image: linear-gradient(#2b995b #1c5f3a, #14472b);
 
 }
 
@@ -83,12 +84,12 @@ body{
     
 }
 
-#principal>h1,h2{
+#principal>h2{
     font-family: 'fonte nova';
     color:#143A26 ;
 }
 
-#principal>h2{
+#principal>h3{
     background-image: linear-gradient(to right, #87DFAF, #87dfaf7e, #87dfaf38, #87dfaf05);
     padding-left: 15px;
     
@@ -105,7 +106,6 @@ body{
 .imagens{
     display: block;
     text-align: center;
-
 }
 
 #bugdroid{
@@ -193,7 +193,6 @@ body{
 
 #rodape{
     width: 100%;
-    height: 35px;
     margin-top: 50px;
     text-align: center;
     line-height: 35px;
