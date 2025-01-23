@@ -15,7 +15,6 @@
 *{
     margin: auto;
     font-family: "Bebas Neue", serif;    
-    min-width: 350px;
 }
 
 body{
@@ -75,7 +74,6 @@ body{
     width: 1000px;
     background-color: white;
     width: auto;
-    min-width: 350px;
     max-width: 1050px;
     padding-top: 35px;
     padding-left: 25px;
@@ -131,7 +129,7 @@ body{
     height: 380px;
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 16%;
 }
 
 .link{
@@ -154,12 +152,10 @@ body{
     border-radius: 15px;
     background-color: #7FE1A9;
     box-shadow: 15px 10px 10px rgba(128, 128, 128, 0.356);
-    min-width: 350px;
     width: 920px;
-    max-width: 920px;
     width: auto;
     height: auto;
-    min-height: 480px;
+    min-height: 420px;
 }
 
 #note>h3{
@@ -202,7 +198,6 @@ body{
     text-align: center;
     line-height: 35px;
     background-color: #032B15;
-    min-width: 350px;
     
 }
 
