@@ -27,7 +27,7 @@ body{
 
 #cabecalho{
     background-image: linear-gradient(#3AD07E, #2b995b, #1c5f3a, #14472b);
-    height: 198px;
+    height: 30%;
     box-shadow: 5px 8px 10px #4a4b4b70;
 }
 
@@ -50,8 +50,7 @@ body{
     text-align: left;
     margin-left: 5px;
     padding-top: 40px;
-    background-image: linear-gradient(#2b995b #1c5f3a, #14472b);
-
+    padding-bottom: 10px;
 }
 
 #cabecalho>nav>a{
