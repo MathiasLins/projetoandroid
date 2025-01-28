@@ -100,10 +100,9 @@ body{
 }
 
 #principal>.imagens{
-    border: 1px solid red;
     display: block;
-    text-align: center;
     width: 100%;
+    padding: 20px;
 }
 
 #bugdroid{
