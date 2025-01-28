@@ -13,7 +13,7 @@
   
 
 *{
-    margin: auto;
+    margin: 0;
     font-family: "Bebas Neue", serif;    
 }
 
@@ -77,7 +77,7 @@ body{
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 10px 15px #4a4b4b70;
-    
+    margin: auto;
 }
 
 #principal>h2{
@@ -102,6 +102,7 @@ body{
 #principal>.imagens{
     border: 1px solid red;
     display: block;
+    text-align: center;
     width: 100%;
 }
 
